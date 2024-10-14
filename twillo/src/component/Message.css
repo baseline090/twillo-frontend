@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+.second-container {
+    padding: 20px; 
+    background-color: #e9ecef;
+    border-top: 1px solid #dcd6d6;
+  
+  }
+  .messgae-box{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  h1 {
+    font-size: 24px; 
+    color: #333; 
+    margin-bottom: 20px; 
+  }
+  
+  .center-dropdown {
+    display: flex;
+    gap:30px
+  }
+  
+  .dropdown {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .filter-button {
+    padding: 10px 15px; 
+    background-color: #007bff; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+    margin-top: 12px;
+  }
+  
+  .filter-button:hover {
+    background-color: #0056b3; 
+  }
